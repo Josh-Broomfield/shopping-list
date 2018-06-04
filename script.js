@@ -24,13 +24,11 @@ function addListitem(val)
 {
 	//create all elements
 	var newItem = document.createElement('li');
-	var newItemPos = count++;
 	var button = document.createElement('button');
-	var id = 'li' + newItemPos;
+	var id = 'li' + count++;
 
 	//set their attributes and events
 	newItem.setAttribute("id", id);
-	newItem.setAttribute("class", "myList");
 
 	newItem.onclick = function() { doneToggle(id) };
 	newItem.innerHTML = val;
