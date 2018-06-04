@@ -1,0 +1,16 @@
+.myContainer {
+	margin: 8px;
+	font-family: Calibri, Ariel;
+}
+
+li > button {
+	margin-left: 5px;
+}
+
+ul {
+	margin-top: 8px;
+}
+
+.done {
+	text-decoration: line-through;
+}
